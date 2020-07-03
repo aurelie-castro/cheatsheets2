@@ -1,0 +1,24 @@
+{
+  "name": "cheatsheets2",
+  "version": "1.0.0",
+  "description": "all my programming languages cheatsheets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aurelie-castro/cheatsheets2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aurelie-castro/cheatsheets2/issues"
+  },
+  "homepage": "https://github.com/aurelie-castro/cheatsheets2#readme",
+  "dependencies": {
+    "highlight.js": "^10.1.1",
+    "parcel-bundler": "^1.12.4"
+  }
+}

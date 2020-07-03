@@ -4,33 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>html</title>
+    <link rel="stylesheet" href="node_modules/highlight.js/styles/rainbow.css"/>
+    <link href="style.css" rel="stylesheet"/>
 </head>
 <body>
     <h1>HTML</h1>
-    <p>Le language HTML sert à faire des sites internet.</p>
+    <p>Le language HTML sert à faire des sites internet. Il va s'accompagner d'un fichier css pour lui donner un style, ainsi que d'autres fichiers en autres languages</p>
     <h2>Les balises</h2>
+    <p>mettre une balise ouvrante au début de l'élément et une fermante à la fin </p><pre><code>
+<!--voici un commentaire en HTML--></code></pre>
+<h3>Les trois de base</h3>
     <ul>
         <li>html</li>
         <p>balise de départ, c'est le type de fichier et elle contient tout le reste</p>
         <li>head</li>
         <p>balise pour mettre les liens vers les stylesheet, le title</p>
         <li>body</li>
-        <p>le "corps" du site. Ici vont tous nos paragraphes, images, etc.</p>
-        <li>h1</li>
-        <p>le titre de notre site</p>
-        <li>h2</li>
-        <p>le soutitre de notre site</p>
-        <li>p</li>
-        <p>un simple paragraphe, en bloc</p>
-        <li>ul et li</li>
-        <p>ul est une unnumbered list, et chaque li répresente un élément de la liste, avec une puce (enlevable)</p>
-        <li>img</li>
+        <p>le "corps" du site. Ici vont tous nos divs, nos paragraphes, images, etc.</p>
+
+    </ul>
+<h3>Format</h3>
+<ul>
+        <li><p>le titre de notre site</p></li> 
+        <pre><code><h1></h1></code></pre>
+        <li><pre><code><h2></h2></code></pre></li>
+        <p>le soutitre de notre site, et ainsi de suite avec h3, h4...</p>
+        <li><pre><code><p></p></code></pre></li>
+        <p>un simple paragraphe</p>
+        <li><pre><code><ul>
+        <li>une chose</li>
+        <li>une autre chose</li>
+</ul></code></pre></li>
+        <p>ul est une unordered list, et chaque li répresente un élément de la liste, avec une puce</p>
+        <li><pre><code><img></code></pre></li>
         <p>une image</p>
-        <li>div ou section</li>
-        <p>une section du site, but d'organisation</p>
-        <li>button</li>
-        <p>un bouton cliquable</p>
+        <li><pre><code><div></div></code></pre></li>
+        <p>une section du site, pour l'organiser</p>
+        <li><pre><code><button></button></code></pre></li>
+        <p>un <button>bouton</button> cliquable</p>
+        <li><pre><code><strong></strong></code></pre></li>
+        <p>mettre en <strong>gras</strong></p>
+        <li><pre><code><em></em></code></pre></li>
+        <p>mettre en <em>itallique</em></p>
     </ul>
 
+<h3>Les attributs</h3>
+<p>Caractéristiques qu'on donne à des éléments. Ils sont toujours suivi de valeurs (nom="valeur")</p>
+<ul>
+    <li>le class: sert à donner une etiquette à l'élément et le grouper avec des autres</li>
+        <pre><code><div class="qqch"></div></code></pre>
+    <li>le id: idem mais le même id ne peut pas être attribué à plus de un élément</li>
+     <pre><code><div id="qqch"></div></code></pre>
+    <li>le src: sert à faire le lien avec des feuilles de style, des images, etc.</li>
+    <li>le alt: sert à décrire le contenu d'un élément (une image, par exemple), </li>
+    <pre><code><img alt="qqch"></code></pre>
+
+</ul>
+<script src="script.js"></script>
 </body>
 </html>
